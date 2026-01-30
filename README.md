@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 💫 Acerca de mi:
 Estudiando programación Java<br>Desarrollador de aplicaciones Web
 
 
