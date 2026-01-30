@@ -5,7 +5,6 @@ Script to generate a GitHub profile header image with name and current date/time
 
 from PIL import Image, ImageDraw, ImageFont
 from datetime import datetime
-import os
 
 def generate_header(width=1920, height=400, output_file='header.png'):
     """
@@ -48,12 +47,33 @@ def generate_header(width=1920, height=400, output_file='header.png'):
     draw = ImageDraw.Draw(image)
     
     # Try to use a nice font, fall back to default if not available
+    font_paths = [
+        # Linux
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        # macOS
+        "/System/Library/Fonts/Helvetica.ttc",
+        "/Library/Fonts/Arial.ttf",
+        # Windows
+        "C:\\Windows\\Fonts\\arial.ttf",
+        "C:\\Windows\\Fonts\\calibri.ttf",
+    ]
+    
     try:
         # Try to find a good system font
-        font_large = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 100)
-        font_medium = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 50)
-        font_small = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 35)
-    except:
+        font_large = None
+        for font_path in font_paths:
+            try:
+                font_large = ImageFont.truetype(font_path, 100)
+                font_medium = ImageFont.truetype(font_path, 50)
+                font_small = ImageFont.truetype(font_path, 35)
+                break
+            except (IOError, OSError):
+                continue
+        
+        if font_large is None:
+            raise IOError("No suitable font found")
+    except (IOError, OSError):
         # Fallback to default font
         font_large = ImageFont.load_default()
         font_medium = ImageFont.load_default()
@@ -104,7 +124,7 @@ def generate_header(width=1920, height=400, output_file='header.png'):
     draw.text((datetime_x, datetime_y), datetime_text, fill='#8B949E', font=font_small)
     
     # Save the image
-    image.save(output_file, 'PNG', quality=95)
+    image.save(output_file, 'PNG', optimize=True)
     print(f"Header image generated successfully: {output_file}")
     print(f"Dimensions: {width}x{height}")
     print(f"Name: {name}")
