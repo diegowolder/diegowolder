@@ -2,7 +2,7 @@
 
 <div align="center">
 
-## 🚀 Desarrollador Web Full-Stack | Java | HTML | CSS | JavaScript
+## 🚀 Desarrollador Web | Java | HTML | CSS | JavaScript
 
 **Consolidando mi carrera con formación académica, experiencia práctica y creatividad técnica** 💻✨
 
@@ -81,26 +81,6 @@ Realización de tareas especializadas en infraestructura tecnológica y segurida
 
 ---
 
-### **🚗 Chofer Privado (Grupo Auro)**
-**Sep 2023 - Oct 2025** | Madrid, España
-
-- 🗺️ Conocimiento extenso de rutas y calles de Madrid
-- 🚗 Mantenimiento de vehículos en perfectas condiciones
-- ⭐ Excelente servicio al cliente y comunicación
-- ✅ Historial de conducción sin infracciones ni accidentes
-
----
-
-### **📦 Courier (Getir)**
-**Nov 2021 - Jul 2023** | Madrid, España
-
-- 🚚 Manejo seguro de vehículos
-- 📍 Conocimiento de rutas locales y geografía urbana
-- 📧 Entregas eficientes y puntuales
-- 💪 Capacidad para seguir instrucciones y cumplir horarios
-
----
-
 ## 🎓 Educación
 
 ### **📚 Grado Superior en Desarrollo de Aplicaciones Web**
@@ -115,31 +95,10 @@ Curso avanzado de programación orientada a objetos y desarrollo con Java.
 
 ---
 
-## 🌍 Idiomas
-
-| Idioma | Nivel |
-|--------|-------|
-| 🇪🇸 **Español** | Nativo (10/10) |
-| 🇬🇧 **Inglés** | Intermedio (5/10) |
-
----
-
-## 📜 Certificaciones & Datos Adicionales
-
-- 🚗 **Carnet de Conducir Categoría B** - Vigente
-- 🚙 **Vehículo Propio** - Disponible para desplazamientos
-
----
-
 ## 📞 Contacto
-
 <div align="center">
-
 📧 **Email:** [diegosulca29@gmail.com](mailto:diegosulca29@gmail.com)
-
-📍 **Ubicación:** Madrid, España 🇪🇸
-
-📱 **Teléfono:** +34 605-290-718
+ Madrid, España 🇪🇸
 
 </div>
 
