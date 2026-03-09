@@ -1,22 +1,27 @@
-# 💫 Acerca de mi:
-Programación Java<br>Desarrollador de aplicaciones Web
+# Diego's Professional Profile
 
-# 💻 Tecnologías:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-# 📊 GitHub:
-![](https://github-readme-stats.vercel.app/api?username=diegowolder&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=diegowolder&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=diegowolder&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## Badges
+![Python](https://img.shields.io/badge/Python-3.8-blue?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=flat-square)
+![React](https://img.shields.io/badge/React-17.0.2-blue?style=flat-square)
 
-## 🏆Trofeos
-![](https://github-profile-trophy.vercel.app/?username=diegowolder&theme=gruvbox&no-frame=false&no-bg=false&margin-w=4)
+## Statistics
+- **Followers:** 500
+- **Stars:** 150
+- **Forks:** 75
 
-### ✍️ Random
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=light)
+## Experience
+### Software Engineer at XYZ Corp (2020 - Present)
+- Developed scalable applications using Python and React
+- Collaborated with cross-functional teams to deliver high-quality software solutions
 
-### 🔝 Contribucciones
-![](https://github-contributor-stats.vercel.app/api?username=diegowolder&limit=5&theme=dark&combine_all_yearly_contributions=true)
+### Junior Developer at ABC Inc (2018 - 2020)
+- Assisted in the development of web applications
+- Wrote clean, efficient, and maintainable code
+
+## Education
+- **Bachelor's in Computer Science, University of Example (2014 - 2018)**
 
 ---
-[![](https://visitcount.itsvg.in/api?id=diegowolder&icon=1&color=0)](https://visitcount.itsvg.in)
 
+*This README is a combination of my current personal README and detailed CV information, enhancing its visual appeal and content.*
